@@ -7,6 +7,8 @@
     color: #000000;
     border-radius: 4px;
     background-color: #D8A6ED;
+    transition: .3s;
+
 }
 
 .main-button:hover {
@@ -17,7 +19,8 @@
     font-weight: 500;
     color: #000000;
     border-radius: 4px;
-    background-color: #BA80D2;
+    background-image: radial-gradient(#D8A6ED 60%, #5355be);
+    transform: scale(1.05);
 }
 
 .secondary-button-navbar {
@@ -31,6 +34,7 @@
     border-color: #FFFFFF;
     border-radius: 4px;
     margin-right: 16px;
+    transition: .3s;
 }
 
 .secondary-button-navbar:hover {
@@ -44,6 +48,7 @@
     border-color: #D8A6ED;
     border-radius: 4px;
     margin-right: 16px;
+    transform: scale(1.05);
 }
 
 .secondary-button {
@@ -56,6 +61,7 @@
     border: 2px solid;
     border-color: #FFFFFF;
     border-radius: 4px;
+    transition: .3s;
 }
 
 .secondary-button:hover {
@@ -68,4 +74,5 @@
     border: 2px solid;
     border-color: #D8A6ED;
     border-radius: 4px;
+    transform: scale(1.05);
 }

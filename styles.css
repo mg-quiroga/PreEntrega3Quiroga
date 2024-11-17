@@ -46,6 +46,7 @@ body {
   color: #000000;
   border-radius: 4px;
   background-color: #D8A6ED;
+  transition: 0.3s;
 }
 
 .main-button:hover {
@@ -55,7 +56,8 @@ body {
   font-weight: 500;
   color: #000000;
   border-radius: 4px;
-  background-color: #BA80D2;
+  background-image: radial-gradient(#D8A6ED 60%, #5355be);
+  transform: scale(1.05);
 }
 
 .secondary-button-navbar {
@@ -68,6 +70,7 @@ body {
   border-color: #FFFFFF;
   border-radius: 4px;
   margin-right: 16px;
+  transition: 0.3s;
 }
 
 .secondary-button-navbar:hover {
@@ -80,6 +83,7 @@ body {
   border-color: #D8A6ED;
   border-radius: 4px;
   margin-right: 16px;
+  transform: scale(1.05);
 }
 
 .secondary-button {
@@ -91,6 +95,7 @@ body {
   border: 2px solid;
   border-color: #FFFFFF;
   border-radius: 4px;
+  transition: 0.3s;
 }
 
 .secondary-button:hover {
@@ -102,6 +107,7 @@ body {
   border: 2px solid;
   border-color: #D8A6ED;
   border-radius: 4px;
+  transform: scale(1.05);
 }
 
 @font-face {
@@ -175,6 +181,7 @@ span {
   position: sticky;
   top: 0;
   background-color: #000;
+  z-index: 1000;
 }
 
 .main-logo {
@@ -291,6 +298,12 @@ section img {
   height: 50%;
   overflow: hidden;
   margin-bottom: 40px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-images:hover {
+  transform: scale(1.05);
 }
 
 .portfolio-image {

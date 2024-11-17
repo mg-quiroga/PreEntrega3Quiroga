@@ -15,6 +15,13 @@
     height: 50%;
     overflow: hidden;
     margin-bottom: 40px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-images:hover {
+    
+    transform: scale(1.05); 
 }
 
 .portfolio-image {
